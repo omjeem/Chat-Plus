@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="7dp"
+    android:background="@drawable/bg_reciever"
+    android:orientation="vertical"
+    android:maxHeight="400dp"
+    android:maxWidth="310dp"
+    android:minHeight="30dp">
+
+
+    
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp"/>
+
+
+</RelativeLayout>
